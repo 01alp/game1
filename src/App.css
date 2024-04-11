@@ -1,0 +1,17 @@
+a {
+  text-decoration: none !important;
+}
+
+.sidebar {
+  transition: margin 0.25s ease-in-out !important;
+}
+
+.sidebar.toggled {
+  margin-left: -170px !important;
+}
+
+@media (min-width: 768px) {
+  .sidebar.toggled {
+    margin-left: 0 !important;
+  }
+}
